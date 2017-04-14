@@ -12,13 +12,25 @@ Inspèrdex = {"Blastoise": {"Poder de Ataque": 20,"Nível de Defesa": 10,"Pontos
 print ("Veja Abaixo os Inspèrmons disponíveis:")
 disp = "Blastoise","Charizard","Alakazam","Gyarados","Snorlax","Dragonite","Bulbasaur","Pikachu","Ninetales","Arcanine"
 print (disp)
-perg = input ("Você deseja saber os atributos de algum? Basta digitar seu nome!")
+perg = input ("Você deseja saber os atributos de algum? Basta digitar seu nome! ")
 print (Inspèrdex[perg])
-pergu = input ("Se você deseja saber os atributos de mais algum digite seu nome! Se não digite 1:")
+pergu = input ("Se você deseja saber os atributos de mais algum digite seu nome! Se não digite GO para continuar: ")
+GO = 1
 if pergu == 1:
-	primeiro = input("Então agora escolha o seu Inspérmon inicial dentre um dos apresentados:")
-	print (Inspèrdex[perg])
-if pergu!=1:
+	primeiro = input("Então agora escolha o seu Inspérmon inicial dentre um dos apresentados: ")
+#procurar alguma ideia para ver todos possiveis ou algo do tipo
+if pergu !=1:
 	print (Inspèrdex[pergu])
-primeiro = input("Agora que você já viu todas as opções escolha o seu Inspérmon inicial dentre um dos apresentados")
-
+primeiro = input("Agora que você já viu as opções escolha o seu Inspérmon inicial dentre um dos apresentados: ")
+print ("Ótima escolha! Agora é hora de iniciar a aventura!")
+a1 = input ("O que você deseja fazer com seu pokémon? Dormir (2) ou Passear(3): ")
+if a1 ==2:
+	print ("Certo! Então é hora de descansar")
+if a1 !=2:
+	print ("Empolgante! Vamos passear pelo campus do Inspèrmon!")
+inserir algum intervalo de tempo
+b1 = input ("Nossa! Encontramos um (algum pokemon) no caminho! E agora? Você deseja fugir (4) ou batalhar (5)? ")
+if b1 ==4:
+	print ("Ufa!! Você conseguiu fugir depois de muito esforço!")
+if b1 ==5:
+	print ("Vai começar um grande desafio de batalha entre Inspèrmons! Boa Sorte!! ")
