@@ -37,45 +37,49 @@ while qqq<100:
     if a1==2:
         print ("Certo! Então é hora de descansar")
         break
-    if a1!=2:
+    if a1==3:
         print ("Empolgante! Vamos passear pelo campus do Inspermon!")
         time.sleep(1)
-        while Insperdex[primeiro]["Pontos de Vida"]>0 : 
-                c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
-                c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
-                print("Nossa! Aquilo é um...")
-                time.sleep(1)
-                a2=random.choice(list(Inspermons.keys()))
-                print(a2)
-                b1 =int(input("Você deseja fugir (4) ou batalhar (5)? "))
-                if b1==5:
-                    print("Vai começar um grande desafio de batalha entre Inspèrmons! Boa Sorte!! ")
-                    print("Você sérá o primeiro a atacar!")
-                    y=0
-                    while y<=1000:
-                        def batalha(primeiro,a2,c2,c4):
-                            if c2>1:
-                                print("Você está num dia de sorte, seu ataque terá mais força do que o normal!")
-                            at1=c2*(Inspermons[a2]["Nível de Desefa"]-Insperdex[primeiro]["Poder de Ataque"])
-                            Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+at1
-                            t=Inspermons[a2]["Pontos de Vida"]
-                            if t<=0:
-                                print("Você o derrotou, muito bem!")
-                                break
-                            if t>0:
-                                print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(t))
-                                if c4>1:
-                                    print("Seu adversário está em um dia sorte, seu ataque terá mais força que o normal!")
-                                at2=c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"])
-                                Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+at2
-                                k=Insperdex[primeiro]["Pontos de Vida"]
-                                if k<=0:
-                                    print("O seu adversário era forte demais, você perdeu!")
-                                    break
-                                if k>0:
-                                    print("Você suportou ao ataque, e ainda restam %d Pontos de Vida ao seu Inspermon!"%(k))
-                                    print("Agora o seu Inspermon atacará de novo")
-                            return (t,k)
+        v=1
+        while v<10: 
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+            c2=1
+            c4=1
+            print("Nossa! Aquilo é um...")
+            time.sleep(1)
+            a2=random.choice(list(Inspermons.keys()))
+            print(a2)
+            b1 =int(input("Você deseja fugir (4) ou batalhar (5)? "))
+            if b1==5:
+                print("Vai começar um grande desafio de batalha entre Inspèrmons! Boa Sorte!! ")
+                time.sleep(0.5)
+                print("Você sérá o primeiro a atacar!")
+                y=0
+                while y<100:
+                    if c2>1:
+                        print("Você está num dia de sorte, seu ataque terá mais força do que o normal!")
+                    Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+(c2*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"]))
+                    print("...")
+                    time.sleep(4)
+                    if Inspermons[a2]["Pontos de Vida"]<=0:
+                        print("Você o derrotou, muito bem!")                                
+                        break
+                    if Inspermons[a2]["Pontos de Vida"]>0:
+                        print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
+                        time.sleep(0.5)
+                        print("Agora é hora do seu adversário atacar")
+                        print("...")
+                        time.sleep(2)
+                        if c4>1:
+                            print("Seu adversário está em um dia sorte, seu ataque terá mais força que o normal!")
+                        Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+(c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"]))
+                        if Insperdex[primeiro]["Pontos de Vida"]<=0:
+                            print("O seu adversário era forte demais, você perdeu!")
+                            break
+                        if Insperdex[primeiro]["Pontos de Vida"]>0:
+                            print("Você suportou ao ataque, e ainda restam %d Pontos de Vida ao seu Inspermon!"%(Insperdex[primeiro]["Pontos de Vida"]))
+                            print("Agora o seu Inspermon atacará de novo")
 #batalha se não conseguir fugir
                 if b1==4:
                     b2=random.choice([1,2])
@@ -87,29 +91,30 @@ while qqq<100:
                     if b2==2:
                         print("Você não conseguiu escapar da batalha e por isso perdeu a vez de atacar!")
                         print("Vai começar um grande desafio de batalha entre Inspèrmons! Boa Sorte!! ")
-                        print("Você sérá o primeiro a atacar!")
+                        time.sleep(0.5)
                         y=0
-                        while y<=1000: 
-                            def batalha(primeiro,a2,c2,c4):
-                                if c4>1:
-                                    print("Seu adversário está em um dia sorte, seu ataque terá mais força que o normal!")
-                                at1=c4*(Insperdex[primeiro]["Nível de Desefa"]-Inspermons[a2]["Poder de Ataque"])
-                                Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+at1
-                                t=Inspermons[primeiro]["Pontos de Vida"]
-                                if t<=0:
-                                    print("O seu adversário era forte demais, você perdeu!")
+                        while y<100:
+                            if c4>1:
+                                print("Seu adversário está em um dia sorte, seu ataque terá mais força que o normal!")
+                            Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+(c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"]))
+                            print("...")
+                            time.sleep(4)
+                            if Insperdex[primeiro]["Pontos de Vida"]<=0:
+                                print("O seu adversário era forte demais, você")                                
+                                break
+                            if Insperdex[primeiro]["Pontos de Vida"]>0:
+                                print("Você suportou ao ataque, e ainda restam %d Pontos de Vida ao seu Inspermon!"%(Insperdex[primeiro]["Pontos de Vida"]))
+                                time.sleep(0.5)
+                                print("Agora é sua vez de atacar!")
+                                print("...")
+                                time.sleep(2)
+                                if c2>1:
+                                    print("Você está num dia de sorte, seu ataque terá mais força do que o normal!")
+                                Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+(c4*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"]))
+                                if Inspermons[a2]["Pontos de Vida"]<=0:
+                                    print("Muito bem! Você o derrotou!")
                                     break
-                                if t>0:
-                                    print("Você suportou ao ataque, e ainda restam %d Pontos de Vida ao seu Inspermon!"%(t))
-                                    print("Agora o seu Inspermon atacará de novo")
-                                    if c2>1:
-                                        print("Você está num dia de sorte, seu ataque terá mais força do que o normal!")
-                                    at2=c2*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"])
-                                    Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+at2
-                                    k=Inspermons[a2]["Pontos de Vida"]
-                                    if k<=0:
-                                        print("Você o derrotou, muito bem!")
-                                        break
-                                    if k>0:
-                                        print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(t))
-                            return (t,k)
+                                if Inspermons[a2]["Pontos de Vida"]>0:
+                                    print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
+                                    print("Agora é a vez do seu adversário atacar de novo.bm")
+    
