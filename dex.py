@@ -3,20 +3,20 @@ import time
 qqq=0
 while qqq<100:
     print ("Ola! Seja Bem Vindo ao Inspermon")
-    Inspermons = {"Blastoise": {"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
-                "Charizard": {"Poder de Ataque": 90,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
-                "Alakazam": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
-                "Gyarados": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
-                "Snorlax": {"Poder de Ataque": 700,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
-                "Dragonite": {"Poder de Ataque":85,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+    Inspermons = {"Squirtle": {"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                "Charmander": {"Poder de Ataque": 90,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+                "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                "Munchlax": {"Poder de Ataque": 70,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                "Dratini": {"Poder de Ataque":85,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
                 "Bulbasaur": {"Poder de Ataque": 45,"Nível de Defesa": 5,"Pontos de Vida": 100,"XP": 0},
                 "Pikachu": {"Poder de Ataque": 50,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
-                "Ninetales": {"Poder de Ataque": 105,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
-                "Arcanine": {"Poder de Ataque":80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                "Vulpix": {"Poder de Ataque": 105,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                "Growlithe": {"Poder de Ataque":80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
     Insperdex={}
     time.sleep(1.5)
     print ("Veja Abaixo os Inspermons disponíveis no jogo:")
-    disp = "Blastoise","Charizard","Alakazam","Gyarados","Snorlax","Dragonite","Bulbasaur","Pikachu","Ninetales","Arcanine"
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
     print (disp)
     time.sleep(1)
     perg = input ("Você deseja saber os atributos de algum? Basta digitar seu nome! ")
@@ -33,7 +33,7 @@ while qqq<100:
         primeiro = input("Agora que você já viu as opções escolha o seu Inspermon inicial dentre um dos apresentados: ")
         r=(Inspermons[primeiro])
         Insperdex[primeiro]=r
-        del Inspermons[primeirox]
+        del Inspermons[primeiro]
     print ("Ótima escolha! Agora é hora de iniciar a aventura!")
     a1=int(input ("O que você deseja fazer com seu pokémon? Dormir (2) ou Passear(3): "))
     if a1==2:
@@ -48,7 +48,7 @@ while qqq<100:
             c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
             c2=1
             c4=1
-            print("Estávamos passeando quando derrepente...")
+            print("Estávamos passeando quando de repente...")
             print("Nossa! Aquilo é um...")
             time.sleep(2)
             a2=random.choice(list(Inspermons.keys()))
@@ -70,6 +70,7 @@ while qqq<100:
                         time.sleep(0.5)
                         print("Parabéns! Você ganhou 1 XP!")
                         Insperdex[primeiro]["XP"]=Insperdex[primeiro]["XP"]+1
+                        del Inspermons[a2]
                         break
                     if Inspermons[a2]["Pontos de Vida"]>0:
                         print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
@@ -122,59 +123,63 @@ while qqq<100:
                                 time.sleep(0.5)
                                 print("Parabéns! Você ganhou 1 XP!")
                                 Insperdex[primeiro]["XP"]=Insperdex[primeiro]["XP"]+1
+                                del Inspermons[a2]
                                 break
                             if Inspermons[a2]["Pontos de Vida"]>0:
                                 print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
                                 print("Agora é a vez do seu adversário atacar de novo")
             time.sleep(2)
             print("Após essa batalha você tem %d de XP"%(Insperdex[primeiro]["XP"]))
-            if Insperdex[primeiro]["XP"]==3:
-#                 print("Você acumulou XP suficiente para evoluir!")
-#                 p1="Blastoise"
-#                 p2="Charizard"
-#                 p3="Alakazam"
-#                 p4="Snorlax"
-#                 p5="Dragonite"
-#                 p6="Bulbasaur"
-#                 p8="Ninetales"
-#                 p9="Arcaine"
-#                 p7="Pikachu"
-#                 if primeiro==p1:
-# evoluão do blastoise        
-#                     Insperdex[primeiro]="Mine"
-#                 if primeiro==p2:
-# evoluão do charizard
-#                     Insperdex[primeiro]="e"
-#                 if primeiro==p3:
-# evoluão do alakazam
-#                     Insperdex[primeiro]="d"
-#                 if primeiro==p4:
-# evoluão do gyarados    
-#                     Insperdex["ee"]=Insperdex[primeiro]
-                if primeiro=="Snorlax":
-# evoluão do snorlax
-                    Insperdex[primeiro]=Insperdex["weirdoo"]
-#                 if primeiro==p5:
-# evoluão do dragonite        
-#                     Insperdex[primeiro]="uu"
-#                 if primeiro==p6:
-# evoluão do bulbasaur 
-#                    Insperdex[primeiro]="rrrr"
-#                 if primeiro==p7:
-# evoluão do pikachu
-#                     Insperdex[primeiro]="qqqqqqq"
-#                 if primeiro==p8:
-# evoluão do ninetales   
-#                     Insperdex[primeiro]="ccc"
-#                 if primeiro==p9:
-# evoluão do arcaine 
-#                     Insperdex[primeiro]="Lllll"
+            if Insperdex[primeiro]["XP"]>=3:
+                if Insperdex[primeiro]["XP"]==3:
+                    print("Você acumulou XP suficiente para evoluir!")
+                p1="Squirtle"
+                p2="Charmander"
+                p3="Abra"
+                p4="Magikarp"
+                p5="Munchlax"
+                p6="Dratini"
+                p7="Bulbasaur"
+                p8="Pikachu"
+                p9="Vulpix"
+                p10="Growlithe"
+                if primeiro==p1:        
+                    Insperdex={"Blastoise":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    prieiro = "Blastoise"
+                if primeiro==p2:
+                    Insperdex={"Charizard":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Charizard"
+                if primeiro==p3:
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Alakazam"
+                if primeiro==p4:
+                    Insperdex={"Gyarados":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Gyarados"
+                if primeiro==p5:        
+                    Insperdex={"Snorlax":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro="Snorlax"
+                if primeiro==p6: 
+                    Insperdex={"Dragonite":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Dragonite" 
+                if primeiro==p7:
+                    Insperdex={"Venusaur":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Venusaur"
+                if primeiro==p8:   
+                    Insperdex={"Raichu":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Raichu" 
+                if primeiro==p9: 
+                     Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                     primeiro = "Ninetales"
+                if primeiro==p10:
+                    Insperdex = {"Arcanine":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Arcanine"
+
             print(Insperdex)
             print ("Agora que acabou a batalha vamos procurar por um pacote de vida extra no campus!")
             time.sleep(1)
             pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
             if pacote == 2:
-                Insperdex[primeiro]["Pontos de Vida"] == 100
+                Insperdex[primeiro]["Pontos de Vida"]=100
                 time.sleep(2)
                 print ("Ótimo! Você encontrou um pacote e sua vida foi regenerada agora vamos continuar a jornada")
                 time.sleep(2)
@@ -188,11 +193,11 @@ while qqq<100:
                     continue
             if pacote == 1:
                 if Insperdex[primeiro]["Pontos de Vida"]>0:
-                    x = int(input("Infelizmente você não encontrou nada pelo campus! A sua vida atual é de %d pontos! Você deseja continuar(1) ou prefere reiniciar(2) o jogo? " %(Insperdex)[primeiro]["Pontos de Vida"]) )
+                    x = int(input("Infelizmente você não encontrou nada pelo campus! A sua vida atual é de %d pontos! Você deseja reiniciar(1) ou continuar(2) o jogo? " %(Insperdex)[primeiro]["Pontos de Vida"]) )
                     time.sleep(0.5)
-                    if x ==1:
-                        continue
                     if x ==2:
+                        continue
+                    if x ==1:
                         print ("O jogo será reiniciado!")
                         time.sleep(1)
                         print ("loading...")
@@ -204,3 +209,4 @@ while qqq<100:
                     time.sleep(1)
                     print("loading...")
                     break    
+                
