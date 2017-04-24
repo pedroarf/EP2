@@ -3,16 +3,16 @@ import time
 qqq=0
 while qqq<100:
     print ("Ola! Seja Bem Vindo ao Inspermon")
-    Inspermons = {"Squirtle": {"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
-                "Charmander": {"Poder de Ataque": 90,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+    Inspermons = {"Squirtle": {"Poder de Ataque": 45,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                "Charmander": {"Poder de Ataque": 40,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
                 "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
                 "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
-                "Munchlax": {"Poder de Ataque": 70,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
-                "Dratini": {"Poder de Ataque":85,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
-                "Bulbasaur": {"Poder de Ataque": 45,"Nível de Defesa": 5,"Pontos de Vida": 100,"XP": 0},
-                "Pikachu": {"Poder de Ataque": 50,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
-                "Vulpix": {"Poder de Ataque": 105,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
-                "Growlithe": {"Poder de Ataque":80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                "Munchlax": {"Poder de Ataque": 60,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                "Dratini": {"Poder de Ataque":65,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                "Bulbasaur": {"Poder de Ataque": 60,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                "Pikachu": {"Poder de Ataque": 65,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                "Vulpix": {"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                "Growlithe": {"Poder de Ataque":70,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
     Insperdex={}
     time.sleep(1.5)
     print ("Veja Abaixo os Inspermons disponíveis no jogo:")
@@ -74,10 +74,10 @@ while qqq<100:
                         break
                     if Inspermons[a2]["Pontos de Vida"]>0:
                         print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
-                        time.sleep(1)
+                        time.sleep(0.5)
                         print("Agora é hora do seu adversário atacar")
                         print("loading...")
-                        time.sleep(2)
+                        time.sleep(4)
                         if c4>1:
                             print("Seu adversário está em um dia sorte, seu ataque terá mais força que o normal!")
                         Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+(c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"]))
@@ -86,6 +86,7 @@ while qqq<100:
                             break
                         if Insperdex[primeiro]["Pontos de Vida"]>0:
                             print("Você suportou ao ataque, e ainda restam %d Pontos de Vida ao seu Inspermon!"%(Insperdex[primeiro]["Pontos de Vida"]))
+                            time.sleep(0.5)
                             print("Agora o seu Inspermon atacará de novo")
 #batalha se não conseguir fugir
             if b1==4:
@@ -97,6 +98,7 @@ while qqq<100:
                     break
                 if b2==2:
                     print("Você não conseguiu escapar da batalha e por isso perdeu a vez de atacar!")
+                    time.sleep(0.5)
                     print("Vai começar um grande desafio de batalha entre Inspèrmons! Boa Sorte!! ")
                     time.sleep(0.5)
                     y=0
@@ -114,7 +116,7 @@ while qqq<100:
                             time.sleep(0.5)
                             print("Agora é sua vez de atacar!")
                             print("loading...")
-                            time.sleep(2)
+                            time.sleep(4)
                             if c2>1:
                                 print("Você está num dia de sorte, seu ataque terá mais força do que o normal!")
                             Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+(c4*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"]))
@@ -127,6 +129,7 @@ while qqq<100:
                                 break
                             if Inspermons[a2]["Pontos de Vida"]>0:
                                 print("Seu ataque não foi forte o suficiente, restam %d Pontos de Vida do adversário!"%(Inspermons[a2]["Pontos de Vida"]))
+                                time.sleep(0.5)
                                 print("Agora é a vez do seu adversário atacar de novo")
             time.sleep(2)
             print("Após essa batalha você tem %d de XP"%(Insperdex[primeiro]["XP"]))
@@ -144,37 +147,55 @@ while qqq<100:
                 p9="Vulpix"
                 p10="Growlithe"
                 if primeiro==p1:        
-                    Insperdex={"Blastoise":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Blastoise":{"Poder de Ataque": 80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
                     prieiro = "Blastoise"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p2:
-                    Insperdex={"Charizard":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Charizard":{"Poder de Ataque": 75,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Charizard"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p3:
-                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Alakazam"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p4:
-                    Insperdex={"Gyarados":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Gyarados":{"Poder de Ataque": 85,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Gyarados"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p5:        
-                    Insperdex={"Snorlax":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Snorlax":{"Poder de Ataque": 105,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
                     primeiro="Snorlax"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p6: 
-                    Insperdex={"Dragonite":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Dragonite":{"Poder de Ataque": 95,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Dragonite" 
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p7:
-                    Insperdex={"Venusaur":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Venusaur":{"Poder de Ataque": 65,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Venusaur"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p8:   
-                    Insperdex={"Raichu":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                    Insperdex={"Raichu":{"Poder de Ataque": 70,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Raichu" 
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p9: 
-                     Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
-                     primeiro = "Ninetales"
+                    Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                    primeiro = "Ninetales"
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
                 if primeiro==p10:
                     Insperdex = {"Arcanine":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
                     primeiro = "Arcanine"
-
-            print(Insperdex)
+                    print("Agora seu Inspermon será:")
+                    print(Insperdex)
             print ("Agora que acabou a batalha vamos procurar por um pacote de vida extra no campus!")
             time.sleep(1)
             pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
