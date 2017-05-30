@@ -1,0 +1,1063 @@
+************* Module dex
+W:  6, 0: Cannot decode using encoding "ascii", unexpected byte at position 55 (invalid-encoded-data)
+W:  7, 0: Cannot decode using encoding "ascii", unexpected byte at position 55 (invalid-encoded-data)
+W:  8, 0: Cannot decode using encoding "ascii", unexpected byte at position 49 (invalid-encoded-data)
+W:  9, 0: Cannot decode using encoding "ascii", unexpected byte at position 53 (invalid-encoded-data)
+W: 10, 0: Cannot decode using encoding "ascii", unexpected byte at position 53 (invalid-encoded-data)
+W: 11, 0: Cannot decode using encoding "ascii", unexpected byte at position 51 (invalid-encoded-data)
+W: 12, 0: Cannot decode using encoding "ascii", unexpected byte at position 54 (invalid-encoded-data)
+W: 13, 0: Cannot decode using encoding "ascii", unexpected byte at position 52 (invalid-encoded-data)
+W: 14, 0: Cannot decode using encoding "ascii", unexpected byte at position 51 (invalid-encoded-data)
+W: 15, 0: Cannot decode using encoding "ascii", unexpected byte at position 53 (invalid-encoded-data)
+W: 18, 0: Cannot decode using encoding "ascii", unexpected byte at position 44 (invalid-encoded-data)
+W: 22, 0: Cannot decode using encoding "ascii", unexpected byte at position 22 (invalid-encoded-data)
+W: 24, 0: Cannot decode using encoding "ascii", unexpected byte at position 28 (invalid-encoded-data)
+W: 26, 0: Cannot decode using encoding "ascii", unexpected byte at position 27 (invalid-encoded-data)
+W: 31, 0: Cannot decode using encoding "ascii", unexpected byte at position 22 (invalid-encoded-data)
+W: 33, 0: Cannot decode using encoding "ascii", unexpected byte at position 39 (invalid-encoded-data)
+W: 37, 0: Cannot decode using encoding "ascii", unexpected byte at position 12 (invalid-encoded-data)
+W: 38, 0: Cannot decode using encoding "ascii", unexpected byte at position 28 (invalid-encoded-data)
+W: 40, 0: Cannot decode using encoding "ascii", unexpected byte at position 26 (invalid-encoded-data)
+W: 51, 0: Cannot decode using encoding "ascii", unexpected byte at position 22 (invalid-encoded-data)
+W: 52, 0: Cannot decode using encoding "ascii", unexpected byte at position 33 (invalid-encoded-data)
+W: 56, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W: 58, 0: Cannot decode using encoding "ascii", unexpected byte at position 31 (invalid-encoded-data)
+W: 60, 0: Cannot decode using encoding "ascii", unexpected byte at position 26 (invalid-encoded-data)
+W: 64, 0: Cannot decode using encoding "ascii", unexpected byte at position 34 (invalid-encoded-data)
+W: 65, 0: Cannot decode using encoding "ascii", unexpected byte at position 108 (invalid-encoded-data)
+W: 69, 0: Cannot decode using encoding "ascii", unexpected byte at position 34 (invalid-encoded-data)
+W: 71, 0: Cannot decode using encoding "ascii", unexpected byte at position 36 (invalid-encoded-data)
+W: 76, 0: Cannot decode using encoding "ascii", unexpected byte at position 43 (invalid-encoded-data)
+W: 78, 0: Cannot decode using encoding "ascii", unexpected byte at position 37 (invalid-encoded-data)
+W: 82, 0: Cannot decode using encoding "ascii", unexpected byte at position 45 (invalid-encoded-data)
+W: 83, 0: Cannot decode using encoding "ascii", unexpected byte at position 127 (invalid-encoded-data)
+W: 85, 0: Cannot decode using encoding "ascii", unexpected byte at position 47 (invalid-encoded-data)
+W: 88, 0: Cannot decode using encoding "ascii", unexpected byte at position 38 (invalid-encoded-data)
+W: 90, 0: Cannot decode using encoding "ascii", unexpected byte at position 63 (invalid-encoded-data)
+W: 91, 0: Cannot decode using encoding "ascii", unexpected byte at position 13 (invalid-encoded-data)
+W: 95, 0: Cannot decode using encoding "ascii", unexpected byte at position 37 (invalid-encoded-data)
+W:100, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W:102, 0: Cannot decode using encoding "ascii", unexpected byte at position 35 (invalid-encoded-data)
+W:107, 0: Cannot decode using encoding "ascii", unexpected byte at position 45 (invalid-encoded-data)
+W:108, 0: Cannot decode using encoding "ascii", unexpected byte at position 127 (invalid-encoded-data)
+W:112, 0: Cannot decode using encoding "ascii", unexpected byte at position 47 (invalid-encoded-data)
+W:115, 0: Cannot decode using encoding "ascii", unexpected byte at position 38 (invalid-encoded-data)
+W:117, 0: Cannot decode using encoding "ascii", unexpected byte at position 41 (invalid-encoded-data)
+W:121, 0: Cannot decode using encoding "ascii", unexpected byte at position 42 (invalid-encoded-data)
+W:122, 0: Cannot decode using encoding "ascii", unexpected byte at position 116 (invalid-encoded-data)
+W:124, 0: Cannot decode using encoding "ascii", unexpected byte at position 53 (invalid-encoded-data)
+W:126, 0: Cannot decode using encoding "ascii", unexpected byte at position 44 (invalid-encoded-data)
+W:131, 0: Cannot decode using encoding "ascii", unexpected byte at position 51 (invalid-encoded-data)
+W:133, 0: Cannot decode using encoding "ascii", unexpected byte at position 45 (invalid-encoded-data)
+W:135, 0: Cannot decode using encoding "ascii", unexpected byte at position 21 (invalid-encoded-data)
+W:138, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W:150, 0: Cannot decode using encoding "ascii", unexpected byte at position 68 (invalid-encoded-data)
+W:152, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:155, 0: Cannot decode using encoding "ascii", unexpected byte at position 68 (invalid-encoded-data)
+W:157, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:160, 0: Cannot decode using encoding "ascii", unexpected byte at position 67 (invalid-encoded-data)
+W:162, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:165, 0: Cannot decode using encoding "ascii", unexpected byte at position 67 (invalid-encoded-data)
+W:167, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:170, 0: Cannot decode using encoding "ascii", unexpected byte at position 67 (invalid-encoded-data)
+W:172, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:175, 0: Cannot decode using encoding "ascii", unexpected byte at position 68 (invalid-encoded-data)
+W:177, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:180, 0: Cannot decode using encoding "ascii", unexpected byte at position 67 (invalid-encoded-data)
+W:182, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:185, 0: Cannot decode using encoding "ascii", unexpected byte at position 65 (invalid-encoded-data)
+W:187, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:190, 0: Cannot decode using encoding "ascii", unexpected byte at position 68 (invalid-encoded-data)
+W:192, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:195, 0: Cannot decode using encoding "ascii", unexpected byte at position 69 (invalid-encoded-data)
+W:197, 0: Cannot decode using encoding "ascii", unexpected byte at position 50 (invalid-encoded-data)
+W:205, 0: Cannot decode using encoding "ascii", unexpected byte at position 24 (invalid-encoded-data)
+W:207, 0: Cannot decode using encoding "ascii", unexpected byte at position 60 (invalid-encoded-data)
+W:210, 0: Cannot decode using encoding "ascii", unexpected byte at position 37 (invalid-encoded-data)
+W:217, 0: Cannot decode using encoding "ascii", unexpected byte at position 51 (invalid-encoded-data)
+W:222, 0: Cannot decode using encoding "ascii", unexpected byte at position 42 (invalid-encoded-data)
+W:228, 0: Cannot decode using encoding "ascii", unexpected byte at position 43 (invalid-encoded-data)
+W:229, 0: Cannot decode using encoding "ascii", unexpected byte at position 37 (invalid-encoded-data)
+C:  3, 0: Exactly one space required around assignment
+qqq=0
+   ^ (bad-whitespace)
+C:  4, 0: Exactly one space required around comparison
+while qqq<100:
+         ^ (bad-whitespace)
+C:  5, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:  6, 0: Line too long (107/100) (line-too-long)
+C:  6, 0: Exactly one space required after comma
+    Inspermons = {"Squirtle": {"Poder de Ataque": 45,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                    ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+    Inspermons = {"Squirtle": {"Poder de Ataque": 45,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                           ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+    Inspermons = {"Squirtle": {"Poder de Ataque": 45,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                                                 ^ (bad-whitespace)
+C:  7, 0: Wrong continued indentation (add 2 spaces).
+                "Charmander": {"Poder de Ataque": 40,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C:  7, 0: Line too long (107/100) (line-too-long)
+C:  7, 0: Exactly one space required after comma
+                "Charmander": {"Poder de Ataque": 40,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+                                                    ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+                "Charmander": {"Poder de Ataque": 40,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+                                                                           ^ (bad-whitespace)
+C:  7, 0: Exactly one space required after comma
+                "Charmander": {"Poder de Ataque": 40,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0},
+                                                                                                 ^ (bad-whitespace)
+C:  8, 0: Wrong continued indentation (add 2 spaces).
+                "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C:  8, 0: Line too long (101/100) (line-too-long)
+C:  8, 0: Exactly one space required after comma
+                "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                              ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+                "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                     ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+                "Abra": {"Poder de Ataque": 70,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                                           ^ (bad-whitespace)
+C:  9, 0: Wrong continued indentation (add 2 spaces).
+                "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C:  9, 0: Line too long (105/100) (line-too-long)
+C:  9, 0: Exactly one space required after comma
+                "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                  ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                         ^ (bad-whitespace)
+C:  9, 0: Exactly one space required after comma
+                "Magikarp": {"Poder de Ataque": 75,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                                               ^ (bad-whitespace)
+C: 10, 0: Wrong continued indentation (add 2 spaces).
+                "Munchlax": {"Poder de Ataque": 60,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C: 10, 0: Line too long (105/100) (line-too-long)
+C: 10, 0: Exactly one space required after comma
+                "Munchlax": {"Poder de Ataque": 60,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                  ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+                "Munchlax": {"Poder de Ataque": 60,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                                         ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+                "Munchlax": {"Poder de Ataque": 60,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                                                               ^ (bad-whitespace)
+C: 11, 0: Wrong continued indentation (add 2 spaces).
+                "Dratini": {"Poder de Ataque":65,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C: 11, 0: Line too long (103/100) (line-too-long)
+C: 11, 0: Exactly one space required after comma
+                "Dratini": {"Poder de Ataque":65,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                "Dratini": {"Poder de Ataque":65,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                       ^ (bad-whitespace)
+C: 11, 0: Exactly one space required after comma
+                "Dratini": {"Poder de Ataque":65,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                                             ^ (bad-whitespace)
+C: 12, 0: Wrong continued indentation (add 2 spaces).
+                "Bulbasaur": {"Poder de Ataque": 60,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C: 12, 0: Line too long (106/100) (line-too-long)
+C: 12, 0: Exactly one space required after comma
+                "Bulbasaur": {"Poder de Ataque": 60,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                   ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                "Bulbasaur": {"Poder de Ataque": 60,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                          ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+                "Bulbasaur": {"Poder de Ataque": 60,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0},
+                                                                                                ^ (bad-whitespace)
+C: 13, 0: Wrong continued indentation (add 2 spaces).
+                "Pikachu": {"Poder de Ataque": 65,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C: 13, 0: Line too long (104/100) (line-too-long)
+C: 13, 0: Exactly one space required after comma
+                "Pikachu": {"Poder de Ataque": 65,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                 ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                "Pikachu": {"Poder de Ataque": 65,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                        ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+                "Pikachu": {"Poder de Ataque": 65,"Nível de Defesa": 10,"Pontos de Vida": 100,"XP": 0},
+                                                                                              ^ (bad-whitespace)
+C: 14, 0: Wrong continued indentation (add 2 spaces).
+                "Vulpix": {"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                ^ | (bad-continuation)
+C: 14, 0: Line too long (103/100) (line-too-long)
+C: 14, 0: Exactly one space required after comma
+                "Vulpix": {"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+                "Vulpix": {"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                                       ^ (bad-whitespace)
+C: 14, 0: Exactly one space required after comma
+                "Vulpix": {"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0},
+                                                                                             ^ (bad-whitespace)
+C: 15, 0: Wrong continued indentation (add 2 spaces).
+                "Growlithe": {"Poder de Ataque":70,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                ^ | (bad-continuation)
+C: 15, 0: Line too long (105/100) (line-too-long)
+C: 15, 0: Exactly one space required after comma
+                "Growlithe": {"Poder de Ataque":70,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                  ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+                "Growlithe": {"Poder de Ataque":70,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                         ^ (bad-whitespace)
+C: 15, 0: Exactly one space required after comma
+                "Growlithe": {"Poder de Ataque":70,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                               ^ (bad-whitespace)
+C: 16, 0: Exactly one space required around assignment
+    Insperdex={}
+             ^ (bad-whitespace)
+C: 18, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 19, 0: Line too long (116/100) (line-too-long)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                     ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                  ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                         ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                    ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                               ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                                         ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                                                     ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                                                               ^ (bad-whitespace)
+C: 19, 0: Exactly one space required after comma
+    disp = "Squirtle","Charmander","Abra","Magikarp","Munchlax","Dratini","Bulbasaur","Pikachu","Vulpix","Growlithe"
+                                                                                                        ^ (bad-whitespace)
+C: 20, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 22, 0: No space allowed before bracket
+    perg = input ("Você deseja saber os atributos de algum? Basta digitar seu nome! ")
+                 ^ (bad-whitespace)
+C: 23, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 24, 0: Trailing whitespace (trailing-whitespace)
+C: 24, 0: Line too long (117/100) (line-too-long)
+C: 24, 0: Exactly one space required after assignment
+    pergu =int(input("Se você deseja saber os atributos de mais algum digite 0. Se não digite 1 para continuar: "))          
+          ^ (bad-whitespace)
+C: 25, 0: Exactly one space required around comparison
+    if pergu==1:
+            ^^ (bad-whitespace)
+C: 26, 0: Exactly one space required around assignment
+        primeiro=input("Então agora escolha o seu Inspermon inicial dentre um dos apresentados: ")
+                ^ (bad-whitespace)
+C: 27, 0: Exactly one space required around assignment
+        r=(Inspermons[primeiro])
+         ^ (bad-whitespace)
+C: 28, 0: Exactly one space required around assignment
+        Insperdex[primeiro]=r
+                           ^ (bad-whitespace)
+C: 30, 0: Exactly one space required around comparison
+    if pergu==0:
+            ^^ (bad-whitespace)
+C: 31, 0: Exactly one space required around assignment
+        pok=input("Você deseja saber os atributos de qual Inspermon? ")
+           ^ (bad-whitespace)
+C: 32, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 33, 0: Line too long (124/100) (line-too-long)
+C: 34, 0: Exactly one space required around assignment
+        r=(Inspermons[primeiro])
+         ^ (bad-whitespace)
+C: 35, 0: Exactly one space required around assignment
+        Insperdex[primeiro]=r
+                           ^ (bad-whitespace)
+C: 37, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 38, 0: Exactly one space required around assignment
+    a1=int(input ("O que você deseja fazer com seu pokémon? Dormir (2) ou Passear(3): "))
+      ^ (bad-whitespace)
+C: 38, 0: No space allowed before bracket
+    a1=int(input ("O que você deseja fazer com seu pokémon? Dormir (2) ou Passear(3): "))
+                 ^ (bad-whitespace)
+C: 39, 0: Exactly one space required around comparison
+    if a1==2:
+         ^^ (bad-whitespace)
+C: 40, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 42, 0: Exactly one space required around comparison
+    if a1==3:
+         ^^ (bad-whitespace)
+C: 43, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 45, 0: Exactly one space required around assignment
+        v=1
+         ^ (bad-whitespace)
+C: 46, 0: Trailing whitespace (trailing-whitespace)
+C: 46, 0: Exactly one space required around comparison
+        while v<10: 
+               ^ (bad-whitespace)
+C: 47, 0: Line too long (102/100) (line-too-long)
+C: 47, 0: Exactly one space required around assignment
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+              ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                               ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                 ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                   ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                     ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                       ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                         ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                           ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                             ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                               ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                 ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                   ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                     ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                       ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                         ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                           ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                             ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                               ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                 ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                   ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                     ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                         ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                              ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                                  ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                                       ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                                           ^ (bad-whitespace)
+C: 47, 0: Exactly one space required after comma
+            c2=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.2,1.25,1.3,1.35,1.4,1.45,1.5])
+                                                                                                ^ (bad-whitespace)
+C: 48, 0: Line too long (101/100) (line-too-long)
+C: 48, 0: Exactly one space required around assignment
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+              ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                               ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                 ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                   ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                     ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                       ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                         ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                           ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                             ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                               ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                 ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                   ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                     ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                       ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                         ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                           ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                             ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                               ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                 ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                   ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                     ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                       ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                         ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                           ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                             ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                               ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                                 ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                                      ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                                          ^ (bad-whitespace)
+C: 48, 0: Exactly one space required after comma
+            c4=random.choice([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.05,1.1,1.15,1.2])
+                                                                                               ^ (bad-whitespace)
+C: 49, 0: Exactly one space required around assignment
+            c2=1
+              ^ (bad-whitespace)
+C: 50, 0: Exactly one space required around assignment
+            c4=1
+              ^ (bad-whitespace)
+C: 51, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 52, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 54, 0: Exactly one space required around assignment
+            a2=random.choice(list(Inspermons.keys()))
+              ^ (bad-whitespace)
+C: 55, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 56, 0: Exactly one space required after assignment
+            b1 =int(input("Você deseja fugir (4) ou batalhar (5)? "))
+               ^ (bad-whitespace)
+C: 57, 0: Exactly one space required around comparison
+            if b1==5:
+                 ^^ (bad-whitespace)
+C: 58, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 60, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 61, 0: Exactly one space required around assignment
+                y=0
+                 ^ (bad-whitespace)
+C: 62, 0: Exactly one space required around comparison
+                while y<100:
+                       ^ (bad-whitespace)
+C: 63, 0: Exactly one space required around comparison
+                    if c2>1:
+                         ^ (bad-whitespace)
+C: 64, 0: Line too long (108/100) (line-too-long)
+C: 64, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 65, 0: Line too long (166/100) (line-too-long)
+C: 65, 0: Exactly one space required around assignment
+                    Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+(c2*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"]))
+                                                    ^ (bad-whitespace)
+C: 66, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 68, 0: Exactly one space required around comparison
+                    if Inspermons[a2]["Pontos de Vida"]<=0:
+                                                       ^^ (bad-whitespace)
+C: 69, 0: Trailing whitespace (trailing-whitespace)
+C: 69, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 71, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 72, 0: Exactly one space required around assignment
+                        Insperdex[primeiro]["XP"]=Insperdex[primeiro]["XP"]+1
+                                                 ^ (bad-whitespace)
+C: 75, 0: Exactly one space required around comparison
+                    if Inspermons[a2]["Pontos de Vida"]>0:
+                                                       ^ (bad-whitespace)
+C: 76, 0: Line too long (148/100) (line-too-long)
+C: 76, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 78, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 79, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 81, 0: Exactly one space required around comparison
+                        if c4>1:
+                             ^ (bad-whitespace)
+C: 82, 0: Line too long (118/100) (line-too-long)
+C: 82, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 83, 0: Line too long (180/100) (line-too-long)
+C: 83, 0: Exactly one space required around assignment
+                        Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+(c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"]))
+                                                             ^ (bad-whitespace)
+C: 84, 0: Exactly one space required around comparison
+                        if Insperdex[primeiro]["Pontos de Vida"]<=0:
+                                                                ^^ (bad-whitespace)
+C: 85, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 87, 0: Exactly one space required around comparison
+                        if Insperdex[primeiro]["Pontos de Vida"]>0:
+                                                                ^ (bad-whitespace)
+C: 88, 0: Line too long (153/100) (line-too-long)
+C: 88, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 90, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 92, 0: Exactly one space required around comparison
+            if b1==4:
+                 ^^ (bad-whitespace)
+C: 93, 0: Exactly one space required around assignment
+                b2=random.choice([1,2])
+                  ^ (bad-whitespace)
+C: 93, 0: Exactly one space required after comma
+                b2=random.choice([1,2])
+                                   ^ (bad-whitespace)
+C: 94, 0: Exactly one space required around comparison
+                if b2==1:
+                     ^^ (bad-whitespace)
+C: 95, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 97, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 99, 0: Exactly one space required around comparison
+                if b2==2:
+                     ^^ (bad-whitespace)
+C:100, 0: Line too long (103/100) (line-too-long)
+C:100, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:102, 0: Line too long (102/100) (line-too-long)
+C:102, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:104, 0: Exactly one space required around assignment
+                    y=0
+                     ^ (bad-whitespace)
+C:105, 0: Exactly one space required around comparison
+                    while y<100:
+                           ^ (bad-whitespace)
+C:106, 0: Exactly one space required around comparison
+                        if c4>1:
+                             ^ (bad-whitespace)
+C:107, 0: Line too long (118/100) (line-too-long)
+C:107, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:108, 0: Line too long (180/100) (line-too-long)
+C:108, 0: Exactly one space required around assignment
+                        Insperdex[primeiro]["Pontos de Vida"]=Insperdex[primeiro]["Pontos de Vida"]+(c4*(Insperdex[primeiro]["Nível de Defesa"]-Inspermons[a2]["Poder de Ataque"]))
+                                                             ^ (bad-whitespace)
+C:109, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:111, 0: Exactly one space required around comparison
+                        if Insperdex[primeiro]["Pontos de Vida"]<=0:
+                                                                ^^ (bad-whitespace)
+C:112, 0: Trailing whitespace (trailing-whitespace)
+C:112, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:114, 0: Exactly one space required around comparison
+                        if Insperdex[primeiro]["Pontos de Vida"]>0:
+                                                                ^ (bad-whitespace)
+C:115, 0: Line too long (153/100) (line-too-long)
+C:115, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:117, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:118, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:120, 0: Exactly one space required around comparison
+                            if c2>1:
+                                 ^ (bad-whitespace)
+C:121, 0: Line too long (116/100) (line-too-long)
+C:121, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:122, 0: Line too long (174/100) (line-too-long)
+C:122, 0: Exactly one space required around assignment
+                            Inspermons[a2]["Pontos de Vida"]=Inspermons[a2]["Pontos de Vida"]+(c4*(Inspermons[a2]["Nível de Defesa"]-Insperdex[primeiro]["Poder de Ataque"]))
+                                                            ^ (bad-whitespace)
+C:123, 0: Exactly one space required around comparison
+                            if Inspermons[a2]["Pontos de Vida"]<=0:
+                                                               ^^ (bad-whitespace)
+C:124, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:126, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:127, 0: Exactly one space required around assignment
+                                Insperdex[primeiro]["XP"]=Insperdex[primeiro]["XP"]+1
+                                                         ^ (bad-whitespace)
+C:130, 0: Exactly one space required around comparison
+                            if Inspermons[a2]["Pontos de Vida"]>0:
+                                                               ^ (bad-whitespace)
+C:131, 0: Line too long (156/100) (line-too-long)
+C:131, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:133, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:135, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:136, 0: Exactly one space required around comparison
+            if Insperdex[primeiro]["XP"]>=3:
+                                        ^^ (bad-whitespace)
+C:137, 0: Exactly one space required around comparison
+                if Insperdex[primeiro]["XP"]==3:
+                                            ^^ (bad-whitespace)
+C:138, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:139, 0: Exactly one space required around assignment
+                p1="Squirtle"
+                  ^ (bad-whitespace)
+C:140, 0: Exactly one space required around assignment
+                p2="Charmander"
+                  ^ (bad-whitespace)
+C:141, 0: Exactly one space required around assignment
+                p3="Abra"
+                  ^ (bad-whitespace)
+C:142, 0: Exactly one space required around assignment
+                p4="Magikarp"
+                  ^ (bad-whitespace)
+C:143, 0: Exactly one space required around assignment
+                p5="Munchlax"
+                  ^ (bad-whitespace)
+C:144, 0: Exactly one space required around assignment
+                p6="Dratini"
+                  ^ (bad-whitespace)
+C:145, 0: Exactly one space required around assignment
+                p7="Bulbasaur"
+                  ^ (bad-whitespace)
+C:146, 0: Exactly one space required around assignment
+                p8="Pikachu"
+                  ^ (bad-whitespace)
+C:147, 0: Exactly one space required around assignment
+                p9="Vulpix"
+                  ^ (bad-whitespace)
+C:148, 0: Exactly one space required around assignment
+                p10="Growlithe"
+                   ^ (bad-whitespace)
+C:149, 0: Trailing whitespace (trailing-whitespace)
+C:149, 0: Exactly one space required around comparison
+                if primeiro==p1:        
+                           ^^ (bad-whitespace)
+C:150, 0: Line too long (120/100) (line-too-long)
+C:150, 0: Exactly one space required around assignment
+                    Insperdex={"Blastoise":{"Poder de Ataque": 80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:150, 0: Exactly one space required after comma
+                    Insperdex={"Blastoise":{"Poder de Ataque": 80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                 ^ (bad-whitespace)
+C:150, 0: Exactly one space required after comma
+                    Insperdex={"Blastoise":{"Poder de Ataque": 80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                        ^ (bad-whitespace)
+C:150, 0: Exactly one space required after comma
+                    Insperdex={"Blastoise":{"Poder de Ataque": 80,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                              ^ (bad-whitespace)
+C:152, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:153, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:154, 0: Exactly one space required around comparison
+                if primeiro==p2:
+                           ^^ (bad-whitespace)
+C:155, 0: Line too long (120/100) (line-too-long)
+C:155, 0: Exactly one space required around assignment
+                    Insperdex={"Charizard":{"Poder de Ataque": 75,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:155, 0: Exactly one space required after comma
+                    Insperdex={"Charizard":{"Poder de Ataque": 75,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                 ^ (bad-whitespace)
+C:155, 0: Exactly one space required after comma
+                    Insperdex={"Charizard":{"Poder de Ataque": 75,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                        ^ (bad-whitespace)
+C:155, 0: Exactly one space required after comma
+                    Insperdex={"Charizard":{"Poder de Ataque": 75,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                              ^ (bad-whitespace)
+C:157, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:158, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:159, 0: Exactly one space required around comparison
+                if primeiro==p3:
+                           ^^ (bad-whitespace)
+C:160, 0: Line too long (119/100) (line-too-long)
+C:160, 0: Exactly one space required around assignment
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:160, 0: Exactly one space required after comma
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                ^ (bad-whitespace)
+C:160, 0: Exactly one space required after comma
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                       ^ (bad-whitespace)
+C:160, 0: Exactly one space required after comma
+                    Insperdex={"Alakazam":{"Poder de Ataque": 55,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                             ^ (bad-whitespace)
+C:162, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:163, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:164, 0: Exactly one space required around comparison
+                if primeiro==p4:
+                           ^^ (bad-whitespace)
+C:165, 0: Line too long (119/100) (line-too-long)
+C:165, 0: Exactly one space required around assignment
+                    Insperdex={"Gyarados":{"Poder de Ataque": 85,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:165, 0: Exactly one space required after comma
+                    Insperdex={"Gyarados":{"Poder de Ataque": 85,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                                ^ (bad-whitespace)
+C:165, 0: Exactly one space required after comma
+                    Insperdex={"Gyarados":{"Poder de Ataque": 85,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                                                       ^ (bad-whitespace)
+C:165, 0: Exactly one space required after comma
+                    Insperdex={"Gyarados":{"Poder de Ataque": 85,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                             ^ (bad-whitespace)
+C:167, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:168, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:169, 0: Trailing whitespace (trailing-whitespace)
+C:169, 0: Exactly one space required around comparison
+                if primeiro==p5:        
+                           ^^ (bad-whitespace)
+C:170, 0: Line too long (119/100) (line-too-long)
+C:170, 0: Exactly one space required around assignment
+                    Insperdex={"Snorlax":{"Poder de Ataque": 105,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:170, 0: Exactly one space required after comma
+                    Insperdex={"Snorlax":{"Poder de Ataque": 105,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                ^ (bad-whitespace)
+C:170, 0: Exactly one space required after comma
+                    Insperdex={"Snorlax":{"Poder de Ataque": 105,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                                       ^ (bad-whitespace)
+C:170, 0: Exactly one space required after comma
+                    Insperdex={"Snorlax":{"Poder de Ataque": 105,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                             ^ (bad-whitespace)
+C:171, 0: Exactly one space required around assignment
+                    primeiro="Snorlax"
+                            ^ (bad-whitespace)
+C:172, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:173, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:174, 0: Trailing whitespace (trailing-whitespace)
+C:174, 0: Exactly one space required around comparison
+                if primeiro==p6: 
+                           ^^ (bad-whitespace)
+C:175, 0: Line too long (120/100) (line-too-long)
+C:175, 0: Exactly one space required around assignment
+                    Insperdex={"Dragonite":{"Poder de Ataque": 95,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:175, 0: Exactly one space required after comma
+                    Insperdex={"Dragonite":{"Poder de Ataque": 95,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                 ^ (bad-whitespace)
+C:175, 0: Exactly one space required after comma
+                    Insperdex={"Dragonite":{"Poder de Ataque": 95,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                        ^ (bad-whitespace)
+C:175, 0: Exactly one space required after comma
+                    Insperdex={"Dragonite":{"Poder de Ataque": 95,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                              ^ (bad-whitespace)
+C:176, 0: Trailing whitespace (trailing-whitespace)
+C:177, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:178, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:179, 0: Exactly one space required around comparison
+                if primeiro==p7:
+                           ^^ (bad-whitespace)
+C:180, 0: Line too long (119/100) (line-too-long)
+C:180, 0: Exactly one space required around assignment
+                    Insperdex={"Venusaur":{"Poder de Ataque": 65,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:180, 0: Exactly one space required after comma
+                    Insperdex={"Venusaur":{"Poder de Ataque": 65,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                ^ (bad-whitespace)
+C:180, 0: Exactly one space required after comma
+                    Insperdex={"Venusaur":{"Poder de Ataque": 65,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                       ^ (bad-whitespace)
+C:180, 0: Exactly one space required after comma
+                    Insperdex={"Venusaur":{"Poder de Ataque": 65,"Nível de Defesa": 25,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                             ^ (bad-whitespace)
+C:182, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:183, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:184, 0: Trailing whitespace (trailing-whitespace)
+C:184, 0: Exactly one space required around comparison
+                if primeiro==p8:   
+                           ^^ (bad-whitespace)
+C:185, 0: Line too long (117/100) (line-too-long)
+C:185, 0: Exactly one space required around assignment
+                    Insperdex={"Raichu":{"Poder de Ataque": 70,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:185, 0: Exactly one space required after comma
+                    Insperdex={"Raichu":{"Poder de Ataque": 70,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                              ^ (bad-whitespace)
+C:185, 0: Exactly one space required after comma
+                    Insperdex={"Raichu":{"Poder de Ataque": 70,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                                                     ^ (bad-whitespace)
+C:185, 0: Exactly one space required after comma
+                    Insperdex={"Raichu":{"Poder de Ataque": 70,"Nível de Defesa": 20,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                           ^ (bad-whitespace)
+C:186, 0: Trailing whitespace (trailing-whitespace)
+C:187, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:188, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:189, 0: Trailing whitespace (trailing-whitespace)
+C:189, 0: Exactly one space required around comparison
+                if primeiro==p9: 
+                           ^^ (bad-whitespace)
+C:190, 0: Line too long (120/100) (line-too-long)
+C:190, 0: Exactly one space required around assignment
+                    Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                             ^ (bad-whitespace)
+C:190, 0: Exactly one space required after comma
+                    Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                 ^ (bad-whitespace)
+C:190, 0: Exactly one space required after comma
+                    Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                                        ^ (bad-whitespace)
+C:190, 0: Exactly one space required after comma
+                    Insperdex={"Ninetales":{"Poder de Ataque": 55,"Nível de Defesa": 35,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                              ^ (bad-whitespace)
+C:192, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:193, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:194, 0: Exactly one space required around comparison
+                if primeiro==p10:
+                           ^^ (bad-whitespace)
+C:195, 0: Line too long (121/100) (line-too-long)
+C:195, 0: Exactly one space required after comma
+                    Insperdex = {"Arcanine":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                  ^ (bad-whitespace)
+C:195, 0: Exactly one space required after comma
+                    Insperdex = {"Arcanine":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                         ^ (bad-whitespace)
+C:195, 0: Exactly one space required after comma
+                    Insperdex = {"Arcanine":{"Poder de Ataque": 55,"Nível de Defesa": 15,"Pontos de Vida": 100,"XP": 0}}
+                                                                                                               ^ (bad-whitespace)
+C:197, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:198, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:199, 0: Line too long (102/100) (line-too-long)
+C:199, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                     ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                       ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                         ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                           ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                             ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                               ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                                 ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                                   ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                                     ^ (bad-whitespace)
+C:201, 0: Exactly one space required after comma
+            pacote = random.choice([1,1,1,2,2,2,2,2,2,2,2])
+                                                       ^ (bad-whitespace)
+C:203, 0: Exactly one space required around assignment
+                Insperdex[primeiro]["Pontos de Vida"]=100
+                                                     ^ (bad-whitespace)
+C:205, 0: Line too long (117/100) (line-too-long)
+C:205, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:207, 0: Line too long (143/100) (line-too-long)
+C:210, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:211, 0: Trailing whitespace (trailing-whitespace)
+C:216, 0: Exactly one space required around comparison
+                if Insperdex[primeiro]["Pontos de Vida"]>0:
+                                                        ^ (bad-whitespace)
+C:217, 0: Line too long (216/100) (line-too-long)
+C:217, 0: No space allowed before bracket
+                    x = int(input("Infelizmente você não encontrou nada pelo campus! A sua vida atual é de %d pontos! Você deseja reiniciar(1) ou continuar(2) o jogo? " %(Insperdex)[primeiro]["Pontos de Vida"]) )
+                                                                                                                                                                                                                       ^ (bad-whitespace)
+C:219, 0: Exactly one space required after comparison
+                    if x ==2:
+                         ^^ (bad-whitespace)
+C:221, 0: Exactly one space required after comparison
+                    if x ==1:
+                         ^^ (bad-whitespace)
+C:222, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:224, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:227, 0: Exactly one space required around comparison
+                if Insperdex[primeiro]["Pontos de Vida"]<=0:
+                                                        ^^ (bad-whitespace)
+C:228, 0: Line too long (127/100) (line-too-long)
+C:228, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:229, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:231, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C:232, 0: Trailing whitespace (trailing-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  3, 0: Invalid constant name "qqq" (invalid-name)
+C:  6, 4: Invalid constant name "Inspermons" (invalid-name)
+C: 16, 4: Invalid constant name "Insperdex" (invalid-name)
+C: 19, 4: Invalid constant name "disp" (invalid-name)
+C: 22, 4: Invalid constant name "perg" (invalid-name)
+C: 24, 4: Invalid constant name "pergu" (invalid-name)
+C: 26, 8: Invalid constant name "primeiro" (invalid-name)
+C: 27, 8: Invalid constant name "r" (invalid-name)
+C: 31, 8: Invalid constant name "pok" (invalid-name)
+C: 33, 8: Invalid constant name "primeiro" (invalid-name)
+C: 34, 8: Invalid constant name "r" (invalid-name)
+C: 38, 4: Invalid constant name "a1" (invalid-name)
+C: 45, 8: Invalid constant name "v" (invalid-name)
+C: 47,12: Invalid constant name "c2" (invalid-name)
+C: 48,12: Invalid constant name "c4" (invalid-name)
+C: 49,12: Invalid constant name "c2" (invalid-name)
+C: 50,12: Invalid constant name "c4" (invalid-name)
+C: 54,12: Invalid constant name "a2" (invalid-name)
+C: 56,12: Invalid constant name "b1" (invalid-name)
+C: 61,16: Invalid constant name "y" (invalid-name)
+C: 93,16: Invalid constant name "b2" (invalid-name)
+C:104,20: Invalid constant name "y" (invalid-name)
+C:139,16: Invalid constant name "p1" (invalid-name)
+C:140,16: Invalid constant name "p2" (invalid-name)
+C:141,16: Invalid constant name "p3" (invalid-name)
+C:142,16: Invalid constant name "p4" (invalid-name)
+C:143,16: Invalid constant name "p5" (invalid-name)
+C:144,16: Invalid constant name "p6" (invalid-name)
+C:145,16: Invalid constant name "p7" (invalid-name)
+C:146,16: Invalid constant name "p8" (invalid-name)
+C:147,16: Invalid constant name "p9" (invalid-name)
+C:148,16: Invalid constant name "p10" (invalid-name)
+C:150,20: Invalid constant name "Insperdex" (invalid-name)
+C:151,20: Invalid constant name "prieiro" (invalid-name)
+C:155,20: Invalid constant name "Insperdex" (invalid-name)
+C:156,20: Invalid constant name "primeiro" (invalid-name)
+C:160,20: Invalid constant name "Insperdex" (invalid-name)
+C:161,20: Invalid constant name "primeiro" (invalid-name)
+C:165,20: Invalid constant name "Insperdex" (invalid-name)
+C:166,20: Invalid constant name "primeiro" (invalid-name)
+C:170,20: Invalid constant name "Insperdex" (invalid-name)
+C:171,20: Invalid constant name "primeiro" (invalid-name)
+C:175,20: Invalid constant name "Insperdex" (invalid-name)
+C:176,20: Invalid constant name "primeiro" (invalid-name)
+C:180,20: Invalid constant name "Insperdex" (invalid-name)
+C:181,20: Invalid constant name "primeiro" (invalid-name)
+C:185,20: Invalid constant name "Insperdex" (invalid-name)
+C:186,20: Invalid constant name "primeiro" (invalid-name)
+C:190,20: Invalid constant name "Insperdex" (invalid-name)
+C:191,20: Invalid constant name "primeiro" (invalid-name)
+C:195,20: Invalid constant name "Insperdex" (invalid-name)
+C:196,20: Invalid constant name "primeiro" (invalid-name)
+C:201,12: Invalid constant name "pacote" (invalid-name)
+C:207,16: Invalid constant name "perg2" (invalid-name)
+C:217,20: Invalid constant name "x" (invalid-name)
+
+
+Report
+======
+222 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |223    |95.71 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |9      |3.86  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |0.43  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |416    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |79     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------+------------+
+|message id           |occurrences |
++=====================+============+
+|bad-whitespace       |225         |
++---------------------+------------+
+|invalid-encoded-data |79          |
++---------------------+------------+
+|superfluous-parens   |69          |
++---------------------+------------+
+|invalid-name         |55          |
++---------------------+------------+
+|line-too-long        |44          |
++---------------------+------------+
+|trailing-whitespace  |13          |
++---------------------+------------+
+|bad-continuation     |9           |
++---------------------+------------+
+|missing-docstring    |1           |
++---------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -12.30/10
+
